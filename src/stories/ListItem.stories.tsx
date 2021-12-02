@@ -3,7 +3,7 @@ import { action } from '@storybook/addon-actions';
 import { ListItem } from "../components/ListItem";
 
 export default {
-  title: 'ListItem',
+  title: 'components/List_Item',
   component: ListItem,
 };
 

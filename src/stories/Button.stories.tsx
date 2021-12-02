@@ -3,9 +3,10 @@ import { action } from '@storybook/addon-actions';
 import { Button } from "../components/Button";
 
 export default {
-  title: 'Button',
+  title: 'components/Button',
   component: Button,
 };
+
 
 
 export const Default = () => <Button onClick={action('clicked')}>Default Button</Button>;
